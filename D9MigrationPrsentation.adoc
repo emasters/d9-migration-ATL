@@ -1,0 +1,110 @@
+= Migrating from D7 to D9: A Work in Process
+:backend: revealjs
+:imagesdir: images
+
+
+== Hi I'm Elmer!
+
+ Elmer Masters
+ Director of Technology
+ Center for Computer-Assisted Legal Instruction  
+ CALI
+
+== Some CALI background
+
+* 501(c)(3) non-profit
+* membership consortium of law schools
+* incorporated in 1982
+
+[.columns]
+== More CALI background
+
+[.column]
+--
+* Lessons
+* eLangdell Books
+* CALI Awards
+* Podcasts, Crosswords, and more
+--
+
+[.column]
+--
+* CALI Author
+* QuizWright
+* CALI Lesson Viewer
+--
+
+[%notitle]
+== CALI Cloud
+[.stretch]
+image::CALICloud.png[]
+
+[%notitle]
+== CALI D7
+[.stretch]
+image::CALIHomeScreenshot2022-09-15-111835.png[]
+
+== Fun example
+ 
+ User registration
+ * requires an suthorization code
+ * keeps non-members out
+ * links students to schools
+ * no anon usage
+  
+[%notitle]
+== Auth Code Code
+[.stretch]
+image::AuthCodeScreenshot2022-09-15-172653.png[]
+
+== So many custom modules
+[.stretch]
+image::ManyModulesScreenshot2022-09-15-173518.png[]
+
+== So, Why Move?
+
+* D7 end of life 11/01/2023
+* PHP 7.4 end of life 11/28/2022
+* D7 is old
+
+== Why D9?
+* API in core
+* Better media handling
+* Layout builder
+* Mobile first UI
+
+== Build or Buy
+
+== Still a rebuild
+
+== Drupal 9 for CALI
+
+http://drupal9cali.lbdev.calidev.org/
+
+== Tools
+
+* Ddev
+** Windows + WSL2 + Docker
+** config.yaml for custom setup
+** should work on Mac
+
+[%notitle]
+== Tools - 2
+
+* Rain https://www.drupal.org/project/rain
+** composer template
+** theme
+** Mediacurrent
+
+== Sort of a demo
+
+== Clean your room!
+
+== Thank you!
+
+ Elmer Masters
+ Director of Technology
+ Center for Computer-Assisted Legal Instruction  
+ CALI
+ emasters@cali.org
+ me@elmermasters.com
